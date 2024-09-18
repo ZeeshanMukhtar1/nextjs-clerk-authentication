@@ -1,5 +1,5 @@
-import { UserButton, auth } from "@clerk/nextjs";
-import { Link } from "next-view-transitions";
+import { UserButton, auth } from '@clerk/nextjs';
+import { Link } from 'next-view-transitions';
 
 export default async function Header() {
   const { userId } = auth();

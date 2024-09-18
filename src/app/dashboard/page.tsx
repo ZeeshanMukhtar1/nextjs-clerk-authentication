@@ -1,11 +1,11 @@
-import { auth, currentUser } from "@clerk/nextjs";
+import { auth, currentUser } from '@clerk/nextjs';
 
 export default async function DashboardPage() {
   const { userId } = auth();
   const user = await currentUser();
 
   // Log the user object to the console
-  console.log("User Object:", user);
+  console.log('User Object:', user);
 
   if (!userId || !user) {
     return (
@@ -32,14 +32,14 @@ export default async function DashboardPage() {
             <span className="font-semibold">Last Name:</span> {user.lastName}
           </li>
           <li className="mb-2">
-            <span className="font-semibold">Email:</span>{" "}
+            <span className="font-semibold">Email:</span>{' '}
             {user.emailAddresses[0].emailAddress}
           </li>
           <li className="mb-2">
             <span className="font-semibold">User ID:</span> {userId}
           </li>
           <li className="mb-2">
-            <span className="font-semibold">Profile Created:</span>{" "}
+            <span className="font-semibold">Profile Created:</span>{' '}
             {new Date(user.createdAt).toLocaleDateString()}
           </li>
         </ul>

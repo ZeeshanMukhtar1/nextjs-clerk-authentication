@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Clerk Authentication Template
+
+Welcome to the Next.js Clerk Authentication Template! This project provides a solid foundation for building web applications with integrated authentication features using Next.js and Clerk.
+
+## Features
+
+- **Next.js Framework**: A powerful React framework for building server-rendered applications.
+- **Clerk Authentication**: Simplified user authentication and management.
+- **Responsive Design**: Mobile-friendly layout.
+- **Easy to Customize**: Modify and expand as per your project requirements.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **next-view-transitions**: Page transitions for Next.js applications.
+- **Prettier**: Code formatter for consistent code style.
 
 ## Getting Started
 
-First, run the development server:
+To use this template, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 1. Use This Template
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- On the main page of this repository, click the green **"Use this template"** button. This will allow you to create a new repository with the same structure and files as this template.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 2. Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Node.js (version 20 or later)
+- npm or Yarn
 
-## Learn More
+### 3. Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the newly created repository**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/<your_username>/<new_repository_name>.git
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. **Navigate to the project directory**:
 
-## Deploy on Vercel
+   ```bash
+   cd <new_repository_name>
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Install dependencies**:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   npm install
+   ```
+
+   or if you prefer Yarn:
+
+   ```bash
+   yarn install
+   ```
+
+4. **Set up Clerk**:
+
+   - Sign up for a Clerk account at [Clerk.com](https://clerk.com).
+   - Create a new application in your Clerk dashboard and obtain your API keys.
+   - Create a `.env.local` file in the root of the project and add the following environment variables:
+     ```
+     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your_publishable_key>
+     CLERK_SECRET_KEY=<your_secret_key>
+     NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+     NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+     NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
+     NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
+     ```
+
+5. **Run the development server**:
+
+   ```bash
+   npm run dev
+   ```
+
+   or
+
+   ```bash
+   yarn dev
+   ```
+
+6. **Open your browser**:
+   Visit `http://localhost:3000` to see your application in action.
+
+## Usage
+
+Feel free to modify the components and styles according to your needs. The template is designed to be flexible and easily customizable.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions or improvements, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Thank You
+
+Thank you for checking out this template! Let’s build amazing projects together!

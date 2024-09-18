@@ -1,0 +1,36 @@
+# Ignore configuration files
+*.config.js
+*.config.ts
+*.config.tsx
+*.config.mjs
+*.config.cjs
+
+# Ignore build output
+/build
+/.next
+/out
+/dist
+/public
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+
+# Ignore node modules
+/node_modules
+
+# Ignore specific file types or patterns
+*.min.js
+*.bundle.js
+*.d.ts
+*.log
+
+
+# ignore env files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+
