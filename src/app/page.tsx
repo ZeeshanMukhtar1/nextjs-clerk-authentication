@@ -6,7 +6,7 @@ export default function Home() {
       </h1>
       <p className="text-lg max-w-2xl text-center mb-6">
         This template is built using Next.js and Clerk for seamless
-        authentication. It's designed to help you quickly set up your own
+        authentication. It&apos;s designed to help you quickly set up your own
         applications with ease.
       </p>
       <p className="text-lg max-w-2xl text-center mb-8">
