@@ -30,13 +30,13 @@ To use this template, follow these steps:
 1. **Clone the newly created repository**:
 
    ```bash
-   git clone https://github.com/<your_username>/<new_repository_name>.git
+   git clone https://github.com/ZeeshanMukhtar1/nextjs-clerk-authentication.git
    ```
 
 2. **Navigate to the project directory**:
 
    ```bash
-   cd <new_repository_name>
+   cd nextjs-clerk-authentication
    ```
 
 3. **Install dependencies**:
