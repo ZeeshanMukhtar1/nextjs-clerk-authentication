@@ -10,7 +10,7 @@ export default function Home() {
         applications with ease.
       </p>
       <p className="text-lg max-w-2xl text-center mb-8">
-        Whether you're building a personal project or a community-driven
+        Whether you&apos;re building a personal project or a community-driven
         platform, our template provides a solid foundation to get started.
       </p>
     </div>

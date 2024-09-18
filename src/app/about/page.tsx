@@ -15,8 +15,8 @@ export default function AboutPage() {
         easily copy this template and customize it for your own applications.
       </p>
       <p className="text-lg text-gray-600 max-w-2xl text-center">
-        Thank you for checking out this template—let's build amazing projects
-        together!
+        Thank you for checking out this template—let&apos;s build amazing
+        projects together!
       </p>
     </div>
   );
