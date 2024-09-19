@@ -17,7 +17,7 @@ export default async function DashboardPage() {
 
   return (
     <div className="mt-10 max-w-2xl mx-auto bg-white shadow-lg rounded-lg p-8">
-      <h1 className="text-4xl font-bold text-gray-800 mb-6">
+      <h1 className="text-4xl font-bold text-gray-800 mb-6 text-center">
         Welcome, {user.firstName}! 👋
       </h1>
       <div className="mb-6">

@@ -6,7 +6,7 @@ export default function Page() {
       <h1 className="text-4xl font-bold mt-20 text-center">
         Join Our Community!
       </h1>
-      <p className="text-lg text-center max-w-lg">
+      <p className="text-lg text-justify max-w-lg">
         Sign up to access exclusive features, connect with others, and start
         your journey with us. It only takes a minute to get started!
       </p>
